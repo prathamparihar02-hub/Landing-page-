@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fitness Landing Page</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+        }
+
+        /* Header */
+        header {
+            background-color: #111;
+            color: white;
+            padding: 15px 40px;
+        }
+
+        header h1 {
+            display: inline;
+            color: #ff4757;
+        }
+
+        nav {
+            float: right;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: #1e272e;
+            color: white;
+            padding: 80px 40px;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 45px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .hero button {
+            padding: 12px 30px;
+            font-size: 16px;
+            background-color: #ff4757;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .hero button:hover {
+            background-color: #e84118;
+        }
+
+        /* Services */
+        .services {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px;
+            background-color: white;
+        }
+
+        .card {
+            width: 30%;
+            padding: 20px;
+            background-color: #f9f9f9;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .card h3 {
+            color: #ff4757;
+            margin-bottom: 10px;
+        }
+
+        /* Membership */
+        .membership {
+            background-color: #ff4757;
+            color: white;
+            padding: 50px;
+            text-align: center;
+        }
+
+        .membership h2 {
+            margin-bottom: 20px;
+        }
+
+        /* Contact */
+        .contact {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .contact input {
+            padding: 10px;
+            width: 250px;
+            margin: 10px;
+        }
+
+        .contact button {
+            padding: 10px 20px;
+            background-color: #111;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #111;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>FitLife</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Programs</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Transform Your Body</h2>
+    <p>Join our fitness center and achieve your dream physique</p>
+    <button>Join Now</button>
+</section>
+
+<section class="services">
+    <div class="card">
+        <h3>Personal Training</h3>
+        <p>One-on-one guidance from expert trainers.</p>
+    </div>
+    <div class="card">
+        <h3>Workout Plans</h3>
+        <p>Customized workout plans for all fitness levels.</p>
+    </div>
+    <div class="card">
+        <h3>Nutrition Guidance</h3>
+        <p>Healthy diet plans to boost your results.</p>
+    </div>
+</section>
+
+<section class="membership">
+    <h2>Affordable Membership Plans</h2>
+    <p>Start your fitness journey today with flexible pricing.</p>
+</section>
+
+<section class="contact">
+    <h2>Get in Touch</h2>
+    <input type="text" placeholder="Your Name"><br>
+    <input type="email" placeholder="Your Email"><br>
+    <button>Submit</button>
+</section>
+
+<footer>
+    <p>© 2025 FitLife Gym | Fitness Landing Page</p>
+</footer>
+
+</body>
+</html>
